@@ -8,4 +8,5 @@ mkdir is used to create a directory
 mv is used to move the filebetty from tmp directory my first directory
 rm used to delete the  file betty in the directory
 rmdir is used to delete my first directory
+changes directory to previous directory
 
