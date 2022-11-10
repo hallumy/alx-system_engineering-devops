@@ -3,5 +3,5 @@
 
 for ((index=0; index<10; index++))
 do
-    echo "Best School"
+  echo "Best School"
 done
