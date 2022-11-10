@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#This script displays files in the current working directory
+
+for index in *;
+do
+  echo "$index" | cut -d'-' -f2
+done;
