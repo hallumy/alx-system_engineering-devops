@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#This script prints the clock
+
+index=0
+
+while [ $index -le 12 ]
+do
+  echo "Hour: $index"
+  minute=1
+  while [ $minute -le 59 ]
+  do
+    echo "$minute"
+    (( minute++ ))
+  done
+  (( index++ ))
+done
