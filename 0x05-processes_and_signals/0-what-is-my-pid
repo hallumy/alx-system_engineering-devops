@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#This script displays the programs own PID
+
+ps
