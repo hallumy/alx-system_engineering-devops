@@ -1,4 +1,4 @@
-![My Image](https://github.com/hallumy/alx-system_engineering-devops/blob/master/images/task_1.jpg)
+![My Image](https://github.com/hallumy/alx-system_engineering-devops/blob/master/images/rsz_task_1.jpg)
 
 THE INFRASTRUCTURE
 
