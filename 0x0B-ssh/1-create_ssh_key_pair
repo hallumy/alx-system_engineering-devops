@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# creating a pair of ssh pswd betty
+# 4096 bits
+ssh-keygen -f school -b 4096 -N betty
