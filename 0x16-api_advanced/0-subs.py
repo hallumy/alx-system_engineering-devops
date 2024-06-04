@@ -10,7 +10,7 @@ def number_of_subscribers(subreddit):
     subscribe = 0
     headers = {'User-agent': 'Chrome/125.0.0.0'}
     url = 'https://www.reddit.com/response/' + subreddit + '/about.json'
-    response = requests.get(url, headers=headers)
+    response = requests.get(url, headers=headers, allow_redirects=False)
     if response.status_code == 200:
        	info = response.jason().get('info')
 	if info:
